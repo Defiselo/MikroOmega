@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * Represents the game logic and state for Tic-Tac-Toe.
- * Implements the `BaseGame.Game` interface to be compatible with the generic BaseGame.Minimax AI.
+ * Implements the `Game` interface to be compatible with the generic Minimax AI.
  */
 public class TicTacToe implements Game {
     public static final int BOARD_SIZE = 3; // Tic-Tac-Toe board is 3x3
@@ -20,7 +20,7 @@ public class TicTacToe implements Game {
      */
     public TicTacToe() {
         board = new Player[BOARD_SIZE][BOARD_SIZE];
-        // Initialize all cells to BaseGame.Player.NONE (empty)
+        // Initialize all cells to Player.NONE (empty)
         for (int i = 0; i < BOARD_SIZE; i++) {
             for (int j = 0; j < BOARD_SIZE; j++) {
                 board[i][j] = Player.NONE;

@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="MikroOmega.jar" type="JarApplication">
-    <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/MikroOmega_jar/MikroOmega.jar" />
+    <option name="JAR_PATH" value="$PROJECT_DIR$/src/Projekt_Cabicar.jar" />
     <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/../../../../JavaFX/javafx-sdk-21.0.7/lib --add-modules=ALL-MODULE-PATH" />
     <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
     <method v="2" />

@@ -196,7 +196,7 @@ public class TicTacToeController {
     }
 
     /**
-     * Handles the action when the "New BaseGame.Game" button is clicked.
+     * Handles the action when the "New Game" button is clicked.
      * Resets the game state and redraws the board.
      */
     @FXML
@@ -223,7 +223,7 @@ public class TicTacToeController {
             Scene scene = new Scene(fxmlLoader.load(), 600, 400); // Match initial scene dimensions
 
             // Set the title of the stage.
-            stage.setTitle("BaseGame.Game Chooser");
+            stage.setTitle("Game Chooser");
 
             // Set the new scene on the stage.
             stage.setScene(scene);

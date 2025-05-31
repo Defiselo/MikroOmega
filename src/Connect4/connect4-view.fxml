@@ -48,7 +48,7 @@
     </GridPane>
 
     <HBox alignment="CENTER" spacing="20.0">
-        <Button onAction="#onNewGameButtonClick" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 10;" text="New BaseGame.Game">
+        <Button onAction="#onNewGameButtonClick" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-font-size: 18px; -fx-background-radius: 10;" text="Game">
             <font>
                 <Font name="Arial Bold" size="16.0" />
             </font>

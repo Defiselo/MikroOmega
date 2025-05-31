@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * Controller for the BaseGame.Game Chooser view.
+ * Controller for the Game Chooser view.
  * This class handles user interactions on the initial screen where the user selects
  * between playing Tic-Tac-Toe and Connect4. It manages the loading of the respective
  * game views.
